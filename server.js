@@ -13,7 +13,7 @@ app.set("views", "views")
 const studentRouter = require('./route/studentRouter');
 app.use(studentRouter);
 
-const dbDriver = "mongodb+srv://abhishek:rKbKhmexljtap0Rh@cluster0.jwma6.mongodb.net/dbStudent"
+const dbDriver = "mongodb+srv://<username>:<password>@cluster0.jwma6.mongodb.net/dbStudent"
 
 
 const port = process.env.PORT || 8001
