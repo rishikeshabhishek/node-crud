@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+* {
+    font-family: 'Handlee', cursive;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+table {
+    font-size: 1rem;
+}
+
+table tr,
+td,
+th {
+    text-align: center;
+}
+
+h4 {
+    color: red;
+    display: none;
+}
+
+#exampleModalCenter img {
+    width: 100px;
+    height: 100px;
+}
+
+#exampleModalCenter h2 {
+    font-weight: bold;
+}
+
+#exampleModalCenter h4 {
+    display: inline;
+    color: black
+}
+
+#preview {
+    width: 100px;
+    height: 100px;
+    display: none;
+}
